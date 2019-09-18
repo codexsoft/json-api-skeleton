@@ -1,0 +1,26 @@
+{
+    "name": "local/json-api-test",
+    "license": "private",
+    "description": "Tools for building JSON API backend and docs based on Symfony Forms and Swagger",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2.0",
+        "codexsoft/json-api": "dev-master"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "zircote/swagger-php": "^2.0",
+        "symfony/dotenv": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": ["src/", "vendor/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["tests/unit/"]
+        }
+    }
+}
